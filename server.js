@@ -13,7 +13,7 @@ app.use(express.json());
 // Configure CORS to allow requests from your Angular app
 app.use(
   cors({
-    origin: ["https://paigonpig.web.app", "http://localhost:4200"],
+    origin: ["https://paigonpig.web.app", "http://localhost:4200", "http://localhost", "http://34.120.172.224"],
   })
 );
 

@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const packageJson = require('../package.json'); // Import package.json
+const db = require("../db");
 
 // Entry point
 router.get("/", (req, res) => {
